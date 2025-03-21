@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class MediumLevelJDBC {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:3306/your_database";
+        String url = "jdbc:mysql://localhost:3306/product";
         String user = "root";
-        String password = "password";
+        String password = "rinku";
 
         try (Connection conn = DriverManager.getConnection(url, user, password)) {
             System.out.println("Connected to the database!");
